@@ -8,5 +8,5 @@ WORKDIR /opt/Test-app-/gannettApp
 RUN pwd
 RUN ls
 RUN mvn install
-RUN echo "java -jar target/gannettApp-1.0-SNAPSHOT.jar" > /opt/gannettapp/
+RUN echo "java -jar target/gannettApp-1.0-SNAPSHOT.jar" > /opt/gannettapp/hello
 RUN chmod +x /opt/gannettapp/
